@@ -1,0 +1,60 @@
+/* Shop.css */
+body{
+  text-align: center;
+}
+.results {
+    margin-top: 20px;
+  }
+
+  .search-group{
+    position: relative;
+    margin: auto;
+  }
+
+  .form-control{
+    width: fit-content;
+    display: inline-block;
+  }
+  .btn-outline-success{
+    color:#9CDBA6;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+  }
+  
+  .card {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the card */
+    width: 200px; /* Fixed width for cards */
+    text-align: center; /* Center align text */
+    background-color: #50B498;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth transition on hover */
+  }
+
+
+  
+  .card img {
+    width: 100%; /* Make the image fill the card width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for the image */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+
+  .btn{
+    background-color: #468585;
+  }
+
+  .btn:hover{
+    background-color: #9CDBA6;
+  }
+  

@@ -1,0 +1,25 @@
+body{
+    background-color: #DEF9C4;
+    height:100%;
+    position: relative;
+}
+
+.welcome{
+    margin: auto;
+    text-align: center;
+}
+
+.accordion{
+    width: 500px;
+    margin: auto;
+}
+
+.accordion-button{
+    background-color: #468585;
+}
+
+footer{
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+}
